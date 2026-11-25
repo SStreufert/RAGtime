@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": {
+      "question": "REPLACE_ME with a question your documents answer, e.g. \"What are the opening hours of the visitor centre?\""
+    },
+    "expectations": {
+      "expected_response": "REPLACE_ME with the fact from your documents that a correct answer must support, e.g. \"The visitor centre is open 9am to 5pm, seven days a week.\""
+    }
+  },
+  {
+    "inputs": {
+      "question": "REPLACE_ME with another question (one fact per question; add as many records as you need)"
+    },
+    "expectations": {
+      "expected_response": "REPLACE_ME with the expected fact, written from the source document rather than from memory"
+    }
+  }
+]

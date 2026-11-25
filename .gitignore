@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+pyvenv.cfg
+CACHEDIR.TAG
+
+# Local config (use .env.example)
+.env
+
+# Chroma vector store — rebuilt via ingest.py after chunk/embedding changes.
+# chroma_db*/ also covers the "chroma_db 500-100" archive-by-rename folders (see AGENTS.md)
+chroma_db*/
+
+# MLflow local stores
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Agent/tool caches
+.playwright-mcp/
+graphify-out/
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# Scratch outputs (analysis artifacts)
+*.xlsx
+output.txt
+traces_output.txt
+
+# internal reviews
+architecture-review*.html
